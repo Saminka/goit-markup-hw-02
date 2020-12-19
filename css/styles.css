@@ -5,3 +5,30 @@ Raleway 700
 */
 
 /* font-family: 'Roboto', sans-serif; */
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+}
+
+.list-no-style {
+  list-style: none;
+}
+
+h2,
+h3,
+h4 {
+  font-family: Roboto;
+}
+
+.accent {
+  color: #2196f3;
+}
+
+.header a .header a:visited {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
