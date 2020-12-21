@@ -2,6 +2,7 @@
 Roboto 700
 Roboto 500
 Raleway 700
+Oleo Script
 */
 
 /* font-family: 'Roboto', sans-serif; */
@@ -27,6 +28,11 @@ body {
 
 .logo {
   font-family: var(--font-second);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
 }
 a {
   text-decoration: none;
@@ -67,6 +73,13 @@ h2 {
   color: var(--font-second-color);
 }
 
+.a-font-color-dark {
+  color: var(--font-main-color);
+}
+
+.a-font-color-light {
+  color: var(--font-third-color);
+}
 /* ===== /Шапка сайта ===== */
 
 /* ===== Герой ===== */
@@ -79,7 +92,11 @@ h2 {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* color: #FFFFFF; */
+  color: #ffffff;
+}
+
+.hero {
+  background-color: #2f303a;
 }
 
 .modal-open-btn {
@@ -213,12 +230,30 @@ h2 {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: #ffffff; */
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #2f303a;
 }
 
 .footer a:hover,
 .footer a:active,
 .footer a:focus {
   color: var(--font-second-color);
+}
+
+.logo-footer-color {
+  color: #ffffff;
+}
+
+.logo-footer {
+  font-family: var(--font-second);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 /* ===== /Футер ===== */
