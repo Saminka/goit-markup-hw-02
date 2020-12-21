@@ -52,7 +52,7 @@ h2 {
 }
 
 .accent {
-  color: #2196f3;
+  color: var(--font-second-color);
 }
 /* ===== /Общие настройки ===== */
 
@@ -107,7 +107,7 @@ h2 {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background: #2196f3;
+  background: var(--font-second-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -176,6 +176,10 @@ h2 {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--font-main-color);
+}
+
+button:hover {
+  background-color: var(--font-second-color);
 }
 
 /* ===== Портфолио карточки ===== */
