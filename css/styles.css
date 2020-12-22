@@ -15,6 +15,7 @@ Oleo Script
   --font-second-color: #2196f3;
   --font-main-color: #212121;
   --font-third-color: #757575;
+  --font-color-light: #ffffff;
 }
 
 body {
@@ -33,6 +34,7 @@ body {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
+  color: black;
 }
 a {
   text-decoration: none;
@@ -63,11 +65,10 @@ h2 {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: var(--font-main-color);
 }
 
-.header a:hover,
+.header li a:hover,
 .header a:active,
 .header a:focus {
   color: var(--font-second-color);
@@ -75,10 +76,12 @@ h2 {
 
 .a-font-color-dark {
   color: var(--font-main-color);
+  font-size: 14px;
 }
 
 .a-font-color-light {
   color: var(--font-third-color);
+  font-size: 14px;
 }
 /* ===== /Шапка сайта ===== */
 
@@ -92,7 +95,7 @@ h2 {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--font-color-light);
 }
 
 .hero {
@@ -106,7 +109,7 @@ h2 {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--font-color-light);
   background: var(--font-second-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -155,7 +158,7 @@ h2 {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--font-color-light);
 }
 .radio-button {
   font-family: var(--font-main);
@@ -234,21 +237,21 @@ button:hover {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--font-color-light);
 }
 
 .footer {
   background-color: #2f303a;
 }
 
-.footer a:hover,
+.footer li a:hover,
 .footer a:active,
 .footer a:focus {
   color: var(--font-second-color);
 }
 
 .logo-footer-color {
-  color: #ffffff;
+  color: var(--font-color-light);
 }
 
 .logo-footer {
@@ -258,6 +261,6 @@ button:hover {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--font-color-light);
 }
 /* ===== /Футер ===== */
